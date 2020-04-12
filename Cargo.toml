@@ -1,9 +1,5 @@
-[package]
-name = "lbry_comment_notifier"
-version = "0.1.0"
-authors = ["Francis Murillo <francis.murillo@protonmail.com>"]
-edition = "2018"
-
 [workspace]
-members = ["core"]
-
+members = [
+  "core",
+  "runner"
+]

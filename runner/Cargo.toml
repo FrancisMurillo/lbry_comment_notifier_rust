@@ -1,0 +1,16 @@
+[package]
+name = "runner"
+version = "0.1.0"
+authors = ["Francis Murillo <francis.murillo@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+dotenv = { version = "0.14.0" }
+log = { version = "0.4.0" }
+env_logger = { version = "0.7.1" }
+job_scheduler = { version = "1.2.1" }
+futures = { version = "0.3.4", features = ["alloc"] }
+tokio = { version = "0.2.17", features = ["full"] }
+num_cpus = { version = "1.13.0" }
+lettre = { version = "0.9.3" }
+core = { path = "../core" }
